@@ -22,7 +22,7 @@
         <div class="loginbox">
             <!-- 登录 -->
             <div class="link_login">
-                <form class="layui-form" action="">
+                <form class="layui-form" id="form_login">
                     <div class="layui-form-item">
                         <i class="layui-icon layui-icon-username"></i>
                         <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
@@ -43,7 +43,7 @@
             <!-- 注册 -->
             <div class="link_reg">
 
-                <form class="layui-form">
+                <form class="layui-form" id="form_reg">
                     <div class="layui-form-item">
                         <i class="layui-icon layui-icon-username"></i>
                         <input type="text" name="username" required lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
@@ -70,6 +70,7 @@
 
     <script src="./lib/jquery.js"></script>
     <script src="./lib//layui/layui.all.js"></script>
+    <script src="./js/common/common.js"></script>
     <script src="./js/login.js"></script>
 </body>
 
